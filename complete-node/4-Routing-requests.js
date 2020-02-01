@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     if(url === '/'){
         res.write('<html>');
         res.write('<head><title>Node Form</title></head>');
-        res.write('<body><form action = "nodeForm" action = "POST"> <button type="submit"> Submit </button><input type = "text" method="POST"></form></body>');
+        res.write('<body><form action = "nodeForm" action = "POST"><input type = "text" method="POST"> <button type="submit">Submit </button> </form></body>');
         res.write('</html>');
         return res.end();
     } 
