@@ -50,3 +50,9 @@ option 3
 module.exports.handler = requestHandler;
 module.exports.someText = 'some text was added';
 */
+
+/*
+option 4
+exports.handler = requestHandler;
+exports.someText = 'some text was added';
+*/
