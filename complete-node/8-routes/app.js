@@ -14,8 +14,3 @@ const server = http.createServer(routes.handler)
 
 */
 
-/*
-option 3
-module.exports.handler = requestHandler;
-module.exports.someText = 'some text was added';
-*/

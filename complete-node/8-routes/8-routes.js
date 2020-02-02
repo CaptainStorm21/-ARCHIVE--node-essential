@@ -45,3 +45,8 @@ module.exports = {
 }
 
 */
+/*
+option 3
+module.exports.handler = requestHandler;
+module.exports.someText = 'some text was added';
+*/
