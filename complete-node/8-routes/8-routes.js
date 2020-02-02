@@ -35,3 +35,13 @@ const requestHandler = ( req, res ) => {
 } 
    
 module.exports = requestHandler;
+
+/*
+option 2
+
+module.exports = {
+    handler: requestHandler,
+    someText: 'Some hard text'
+}
+
+*/
